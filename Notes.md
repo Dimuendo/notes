@@ -2,6 +2,7 @@
 
  - `nmap -sV --open -p- 10.129.5.201`
  - `nmap -sC -sV -p 22,80,8065 10.129.5.201`
+ - `nmap --script=vuln -sV -p 22,80,8065 10.129.5.201`
  - `sudo nmap -sV -sU -p- --min-rate 5000 10.129.5.201`
  - `sudo nmap -sU -p 161 -sV 10.129.5.201`
 
