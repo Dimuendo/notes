@@ -142,3 +142,4 @@
    - Find .config files
  - `find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null`
    - Find all config files
+ - `find / -readable -exec grep -H root '{}' \; 2>/dev/null | grep password`
